@@ -6,7 +6,7 @@ A modern and responsive personal portfolio website built with **Flutter Web** to
 
 This portfolio was designed to present my work as a Flutter Developer in a clean, modern, and responsive interface.
 
-The website includes dedicated sections for my services, featured projects, technologies, development process, testimonials, frequently asked questions, and contact information.
+The website includes dedicated sections for my services, featured projects, technologies, development process, frequently asked questions, and contact information.
 
 ## 🚀 Features
 
@@ -16,7 +16,6 @@ The website includes dedicated sections for my services, featured projects, tech
 * Services section
 * Technologies and skills showcase
 * Development process section
-* Testimonials
 * FAQ section
 * Contact section
 * Smooth navigation between sections
@@ -49,7 +48,6 @@ lib/
 │   ├── projects_section/
 │   ├── technologies_section/
 │   ├── process_section/
-│   ├── testimonials_section/
 │   ├── faq_section/
 │   ├── contact_section/
 │   └── footer_section/
@@ -83,7 +81,7 @@ The design focuses on:
 The portfolio showcases selected projects that I have worked on, including:
 
 * **EDARA** — University Management System
-* **JobSy** — Job Search Platform
+* **JOBSY** — Job Search Platform
 * **Super Admin Dashboard** — Administrative Dashboard
 * Other Flutter projects and applications
 
@@ -100,7 +98,7 @@ This project was created to:
 
 ## 👩‍💻 Developer
 
-**دعاء الرماس**
+** Duaa Ermas **
 
 Flutter Developer
 

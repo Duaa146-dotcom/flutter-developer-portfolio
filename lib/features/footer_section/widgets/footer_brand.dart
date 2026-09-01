@@ -1,3 +1,5 @@
+import 'dart:html' as html;
+
 import 'package:flutter/material.dart';
 import 'package:portfolio/core/theme/app_colors.dart';
 
@@ -13,21 +15,32 @@ class FooterBrand extends StatelessWidget {
         Row(
           mainAxisSize: MainAxisSize.min,
           children: [
+            MouseRegion(
+              cursor: SystemMouseCursors.click,
+              child: GestureDetector(
+                onTap: () {
+                  html.window.open(
+                    'https://devstudio.freehosting.dev/',
+                    '_blank',
+                  );
+                },
+                child: const Text(
+                  'DevStudio',
+                  style: TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.w900,
+                    color: Colors.white,
+                    letterSpacing: -0.5,
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(width: 8),
             Icon(
               Icons.code_rounded,
               color: AppColors.primary,
               size: 40,
               // weight: 20,
-            ),
-            const SizedBox(width: 8),
-            const Text(
-              'DevStudio',
-              style: TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.w900,
-                color: Colors.white,
-                letterSpacing: -0.5,
-              ),
             ),
           ],
         ),

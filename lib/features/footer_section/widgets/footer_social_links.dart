@@ -20,12 +20,13 @@ class FooterSocialLinks extends StatelessWidget {
       {
         'icon': FontAwesomeIcons.github,
         'label': 'GitHub',
-        'url': 'https://github.com/doaa-alramas', // استبدلي برابطك
+        'url': 'https://github.com/Duaa146-dotcom', // استبدلي برابطك
       },
       {
         'icon': FontAwesomeIcons.linkedinIn,
         'label': 'LinkedIn',
-        'url': 'https://linkedin.com/in/doaa-alramas', // استبدلي برابطك
+        'url':
+            'https://www.linkedin.com/in/duaa-ermas-708917361', // استبدلي برابطك
       },
       {
         'icon': FontAwesomeIcons.whatsapp,
@@ -35,7 +36,7 @@ class FooterSocialLinks extends StatelessWidget {
       {
         'icon': FontAwesomeIcons.envelope,
         'label': 'Email',
-        'url': 'idwa.2014@gmail.com', // استبدلي بإيميلك
+        'url': 'mailto:idwa.2014@gmail.com',
       },
     ];
 
